@@ -1,0 +1,76 @@
+.heading {
+    box-shadow: 7px 7px 7px fuchsia;
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.note {
+    font-size: 15px;
+    color: darkred;
+    box-shadow: 5px 5px 5px darkorange;
+    background-color: deepskyblue;
+    font-style: italic;
+}
+
+body {
+    background-size: cover;
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_speed_img,
+.div_volume_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed {
+    font-size: 23px;
+    margin: 15px;
+    box-shadow: 5px 5px 5px fuchsia;
+}
+
+.div_volume {
+    float: right;
+}
+
+#volume {
+    font-size: 23px;
+    box-shadow: 5px 5px 5px gold;
+    margin: 15px;
+}
+
+.play_button {
+    box-shadow: 5px 5px 5px mediumslateblue;
+    width: 130px;
+    font-size: 25px;
+    background-color: hotpink;
+}
+
+canvas {
+    border: 5px solid fuchsia;
+    border-radius: 20px;
+}
+
+.play_button:hover {
+    background-color: indigo;
+    color: lime;
+    box-shadow: 10px 10px 10px darkviolet;
+}
+
+#speed:hover {
+    background-color: darkorchid;
+    color: deeppink;
+    box-shadow: 5px 5px 5px royalblue;
+}
+
+#volume:hover{
+    background-color: dodgerblue;
+    color: gold;
+    box-shadow: 5px 5px 5px deeppink;
+}
